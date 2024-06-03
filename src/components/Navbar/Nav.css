@@ -1,0 +1,42 @@
+.nav  {
+    min-height: 600px;
+}
+
+.nav__contents {
+    height: 100%;
+}
+
+.nav__contents ul {
+    color: #919393;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 20px;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.nav-link, li.nav__links a{
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav__links a:hover {
+    color: #000;
+}
+
+.nav__contents .nav__links {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.nav__contents .nav__loc {
+    font-size: 14px;
+    cursor: context-menu;
+}
