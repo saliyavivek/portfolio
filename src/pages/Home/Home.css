@@ -1,3 +1,31 @@
 .home {
     min-height: 600px;
+    max-width: 470px;
+}
+
+.home__title {
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #212125;
+}
+
+.home__description {
+    padding-bottom: 20px;
+    color: #6F736D;
+}
+
+.home__description p {
+    font-family: "Manrope", sans-serif;
+    margin-bottom: 20px;
+}
+
+.home__about-site h2 {
+    font-size: 18px;
+    color: #7B7C7D;
+    margin-bottom: 4px;
+}
+
+.home__about-site p {
+    color: #6F736D;
+    font-family: "Manrope", sans-serif;
 }

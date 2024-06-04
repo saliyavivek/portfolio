@@ -1,24 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
 const Nav = () => {
+  const [active, setActive] = useState("/");
+
   return (
     <div className="nav">
       <div className="nav__contents">
         <ul>
           <li>
-            <Link to="/" className="nav-link">
+            <Link
+              to="/"
+              className={active === "/" ? "nav-link nav-link-bold" : "nav-link"}
+              onClick={() => setActive("/")}
+            >
               vivek saliya
             </Link>
           </li>
           <li>
-            <Link to="/work" className="nav-link">
+            <Link
+              to="/work"
+              className={
+                active === "/work" ? "nav-link nav-link-bold" : "nav-link"
+              }
+              onClick={() => setActive("/work")}
+            >
               work
             </Link>
           </li>
           <li>
-            <Link to="/finds" className="nav-link">
+            <Link
+              to="/finds"
+              className={
+                active === "/finds" ? "nav-link nav-link-bold" : "nav-link"
+              }
+              onClick={() => setActive("/finds")}
+            >
               finds
             </Link>
           </li>

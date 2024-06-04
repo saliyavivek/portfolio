@@ -18,9 +18,15 @@
 
 .nav-link {
     font-weight: 600;
+    color: inherit;
+    text-decoration: none;
 }
 
-.nav-link, li.nav__links a{
+.nav-link-bold {
+    color: #212525;
+}
+
+li.nav__links a{
     text-decoration: none;
     color: inherit;
     transition: all 0.3s ease-in-out;
@@ -38,5 +44,8 @@
 
 .nav__contents .nav__loc {
     font-size: 14px;
+    font-weight: 500;
     cursor: context-menu;
+    letter-spacing: 2px;
+    font-family: "Manrope", sans-serif;
 }
