@@ -9,6 +9,7 @@
     color: #212125;
     font-weight: 700;
     letter-spacing: 0.64px;
+    user-select: none;
 }
 
 .home__description {
@@ -20,6 +21,10 @@
 .home__description p {
     font-family: "Manrope", sans-serif;
     margin-bottom: 20px;
+}
+
+.home__about-site {
+    user-select: none;
 }
 
 .home__about-site h2 {

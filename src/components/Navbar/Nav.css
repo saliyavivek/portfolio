@@ -1,5 +1,6 @@
 .nav  {
     min-height: 600px;
+    user-select: none;
 }
 
 .nav__contents {
@@ -29,7 +30,7 @@
 .nav__contents .nav__links {
     display: flex;
     justify-content: flex-end;
-    gap: 5px;
+    gap: 8px;
     text-decoration: none;
 }
 
