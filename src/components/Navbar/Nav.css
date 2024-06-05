@@ -26,20 +26,21 @@
     color: #212525;
 }
 
+.nav__contents .nav__links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    text-decoration: none;
+}
+
 li.nav__links a{
     text-decoration: none;
-    color: inherit;
+    color: rgb(111,115,109);
     transition: all 0.3s ease-in-out;
 }
 
 .nav__links a:hover {
     color: #000;
-}
-
-.nav__contents .nav__links {
-    display: flex;
-    gap: 10px;
-    text-decoration: none;
 }
 
 .nav__contents .nav__loc {

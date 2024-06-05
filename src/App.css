@@ -2,6 +2,10 @@
     font-family: 'Gustavo';
     src: url('/src/fonts/Gustavo_trial-Regular-BF65f254e22bb0e.otf');
 }
+@font-face {
+    font-family: 'Gustavo';
+    src: url('/src/fonts/Gustavo_trial-Bold-BF65f254e21d829.otf');
+}
 
 * {
     margin: 0;
@@ -19,6 +23,6 @@
     max-width: 100vw;
     display: flex;
     margin: 0 17vw;
-    padding: 6rem 0;
+    padding: 6rem 0 0 0;
     gap: 10rem;
 }

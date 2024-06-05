@@ -1,17 +1,20 @@
 .home {
     min-height: 600px;
-    max-width: 470px;
+    max-width: 550px;
 }
 
 .home__title {
     font-size: 30px;
     padding-bottom: 20px;
     color: #212125;
+    font-weight: 700;
+    letter-spacing: 0.64px;
 }
 
 .home__description {
     padding-bottom: 20px;
     color: #6F736D;
+    font-size: 14px;
 }
 
 .home__description p {
@@ -28,4 +31,5 @@
 .home__about-site p {
     color: #6F736D;
     font-family: "Manrope", sans-serif;
+    font-size: 14px;
 }
