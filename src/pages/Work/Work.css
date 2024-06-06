@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Gustavo_Regular';
+    src: url('/src/fonts/Gustavo_trial-Regular-BF65f254e22bb0e.otf');
+}
+
+.work {
+    min-height: 600px;
+    max-width: 550px;
+}
+
+.work__title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.work__title h3{
+    font-size: 36px;
+}
+
+.work__title p {
+    font-size: 14px;
+    font-family: 'Gustavo_Regular';
+    color: #6F736D;
+}
