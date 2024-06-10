@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Nav.css";
 
 const Nav = () => {
-  const [active, setActive] = useState("/");
+  const location = useLocation();
+  const [active, setActive] = useState(location.pathname);
 
   return (
     <div className="nav">
@@ -26,7 +27,7 @@ const Nav = () => {
               }
               onClick={() => setActive("/work")}
             >
-              work
+              projects
             </Link>
           </li>
           <li>

@@ -6,13 +6,10 @@ const Home = () => {
     <div className="home">
       <div className="home__contents">
         <h1 className="home__title">
-          i'm vivek, an engineer. <br />i like building awesome stuff.
+          i'm vivek, an engineer. <br />i like building cool and useful stuff.
         </h1>
         <div className="home__description">
-          <p>
-            strive to create technology that not only solves problems but also
-            transforms lives.
-          </p>
+          <p>always aspired to build technology that everybody loves using.</p>
           <p>like to solve the problems around the world using tech.</p>
           <p>
             driven by a desire to bring awesome, cool ideas to life,
