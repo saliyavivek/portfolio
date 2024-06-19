@@ -3,7 +3,7 @@ import "./App.css";
 import Nav from "./components/Navbar/Nav";
 import Home from "./pages/Home/Home";
 import Work from "./pages/Work/Work";
-import Finds from "./pages/Finds";
+import Skills from "./pages/Skills/Skills";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/work" element={<Work />} />
-          <Route path="/finds" element={<Finds />} />
+          <Route path="/skills" element={<Skills />} />
         </Routes>
       </div>
     </div>

@@ -32,18 +32,18 @@ const Nav = () => {
           </li>
           <li>
             <Link
-              to="/finds"
+              to="/skills"
               className={
-                active === "/finds" ? "nav-link nav-link-bold" : "nav-link"
+                active === "/skills" ? "nav-link nav-link-bold" : "nav-link"
               }
-              onClick={() => setActive("/finds")}
+              onClick={() => setActive("/skills")}
             >
-              finds
+              skills
             </Link>
           </li>
           <li className="nav__links">
             <a
-              title="say"
+              title="say hello"
               target="_blank"
               href="mailto:viveksaliya007@gmail.com"
             >
@@ -66,7 +66,7 @@ const Nav = () => {
               </svg>
             </a>
             <a
-              title="linkedin"
+              title="let's connect"
               target="_blank"
               href="https://www.linkedin.com/in/viveksaliya"
             >

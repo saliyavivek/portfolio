@@ -1,5 +1,6 @@
 import React from "react";
 import "./Work.css";
+import resume from "../../assets/resume.pdf";
 
 const Work = () => {
   return (
@@ -64,7 +65,11 @@ const Work = () => {
         to explore rest of my projects, feel free to drop by on my{" "}
         <a href="https://github.com/saliyavivek/">github</a>.
         <br />
-        if you're a recruiter, here's my <a href="#">resume</a>.
+        if you're a recruiter, here's my{" "}
+        <a href={resume} download={"viveksaliya"}>
+          resume
+        </a>
+        .
       </p>
     </div>
   );

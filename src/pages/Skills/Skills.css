@@ -1,0 +1,36 @@
+.skills {
+    max-height: 550px;
+    max-width: 550px;
+}
+
+.skills__title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skills__title h3{
+    font-size: 36px;
+}
+
+.skills__title p {
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    color: #6F736D;
+    padding: 5px 0 0 0;
+}
+
+.skills__s p {
+    font-size: 14px;
+    color: #6F736D;
+    margin-top: 12px;
+    line-height: 1.25rem;
+    font-family: "Manrope", sans-serif;
+}
+
+span {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 4px;
+    text-decoration-color: #919393;
+}
