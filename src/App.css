@@ -26,3 +26,14 @@
     padding: 6rem 0 0 0;
     gap: 10rem;
 }
+
+@media (max-width: 800px) {
+    .app {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+        padding: 20px;
+    }
+}

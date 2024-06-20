@@ -39,3 +39,10 @@
     font-family: "Manrope", sans-serif;
     font-size: 14px;
 }
+
+@media (max-width: 800px) {
+    .home {
+        min-height: auto;
+        margin-top: -550px;
+    }
+}
