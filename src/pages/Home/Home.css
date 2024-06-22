@@ -4,7 +4,9 @@
 }
 
 .home__title {
-    font-size: 30px;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    /* font-size: 30px; */
     padding-bottom: 20px;
     color: #212125;
     font-weight: 700;
@@ -21,7 +23,9 @@
 
 .home__description p {
     font-family: "Manrope", sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
+    font-size: .875rem;
+    line-height: 1.25rem;
 }
 
 .home__about-site {
@@ -32,12 +36,18 @@
     font-size: 18px;
     color: #7B7C7D;
     margin-bottom: 4px;
+    letter-spacing: 0.04em;
 }
 
 .home__about-site p {
     color: #6F736D;
     font-family: "Manrope", sans-serif;
     font-size: 14px;
+}
+
+.home__about-site p a {
+    color: inherit;
+    text-decoration: underline;
 }
 
 @media (max-width: 800px) {

@@ -6,19 +6,21 @@ const Home = () => {
     <div className="home">
       <div className="home__contents">
         <h1 className="home__title">
-          i'm vivek, an engineer. <br />i like building cool and useful stuff.
+          i'm vivek, an engineer. <br />i like building awesome stuff.
         </h1>
         <div className="home__description">
-          <p>always aspired to build technology that everybody loves using.</p>
-          <p>like to solve the problems around the world using tech.</p>
-          <p>
-            driven by a desire to bring awesome, cool ideas to life,
-            continuously.
-          </p>
+          <p>playing around with backend stuff.</p>
+          <p>building cool and useful things using tech.</p>
         </div>
         <div className="home__about-site">
           <h2>about this site</h2>
-          <p>this site is built using &hearts; and ReactJS.</p>
+          <p>
+            this site is built with &hearts; and{" "}
+            <a href="https://react.dev/" target="_blank">
+              React
+            </a>
+            .
+          </p>
         </div>
       </div>
     </div>
