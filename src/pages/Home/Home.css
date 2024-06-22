@@ -1,12 +1,11 @@
 .home {
-    min-height: 600px;
+    /* min-height: 600px; */
     max-width: 550px;
 }
 
 .home__title {
     font-size: 1.875rem;
     line-height: 2.25rem;
-    /* font-size: 30px; */
     padding-bottom: 20px;
     color: #212125;
     font-weight: 700;
@@ -52,7 +51,6 @@
 
 @media (max-width: 800px) {
     .home {
-        min-height: auto;
-        margin-top: -550px;
+        margin-top: -580px;
     }
 }

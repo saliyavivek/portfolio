@@ -13,7 +13,11 @@ const Nav = () => {
           <li>
             <Link
               to="/"
-              className={active === "/" ? "nav-link nav-link-bold" : "nav-link"}
+              className={
+                active === "/"
+                  ? "nav-link nav-link-bold"
+                  : "nav-link not_active"
+              }
               onClick={() => setActive("/")}
             >
               vivek saliya
@@ -23,7 +27,9 @@ const Nav = () => {
             <Link
               to="/work"
               className={
-                active === "/work" ? "nav-link nav-link-bold" : "nav-link"
+                active === "/work"
+                  ? "nav-link nav-link-bold"
+                  : "nav-link not_active"
               }
               onClick={() => setActive("/work")}
             >
@@ -34,7 +40,9 @@ const Nav = () => {
             <Link
               to="/skills"
               className={
-                active === "/skills" ? "nav-link nav-link-bold" : "nav-link"
+                active === "/skills"
+                  ? "nav-link nav-link-bold"
+                  : "nav-link not_active"
               }
               onClick={() => setActive("/skills")}
             >

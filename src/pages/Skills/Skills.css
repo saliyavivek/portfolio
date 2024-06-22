@@ -34,3 +34,15 @@ span {
     text-underline-offset: 4px;
     text-decoration-color: #919393;
 }
+
+@media (max-width: 800px) {
+    .skills {
+        min-height: auto;
+        margin-top: -580px;
+        overflow-y: scroll;
+    }
+
+    .skills::-webkit-scrollbar {
+        display: none;
+    }
+}

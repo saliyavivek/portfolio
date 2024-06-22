@@ -51,3 +51,13 @@ li.nav__links a{
     cursor: context-menu;
     font-family: "Manrope", sans-serif;
 }
+
+@media (max-width: 800px) {
+    .nav__contents ul {
+        text-align: left;
+    }
+
+    .nav__loc {
+        display: none;
+    }
+}

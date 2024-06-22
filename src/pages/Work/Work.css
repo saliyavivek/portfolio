@@ -74,3 +74,10 @@ hr {
 .work__footer a {
     color: inherit;
 }
+
+@media (max-width: 800px) {
+    .work {
+        min-height: auto;
+        margin-top: -580px;
+    }
+}
