@@ -19,6 +19,10 @@ const Home = () => {
             <a href="https://react.dev/" target="_blank">
               React
             </a>
+            . the design is inspired by{" "}
+            <a href="https://cheesetosht.xyz/" target="_blank">
+              cheesetosht.xyz
+            </a>
             .
           </p>
         </div>
