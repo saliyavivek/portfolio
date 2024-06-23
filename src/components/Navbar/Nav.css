@@ -1,5 +1,5 @@
 .nav  {
-    min-height: 600px;
+    /* min-height: 600px; */
     user-select: none;
 }
 
@@ -53,6 +53,10 @@ li.nav__links a{
 }
 
 @media (max-width: 800px) {
+    /* .nav {
+        min-height: 160px;
+    } */
+
     .nav__contents ul {
         text-align: left;
     }

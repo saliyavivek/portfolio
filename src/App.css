@@ -37,4 +37,8 @@
         margin: 0;
         padding: 20px;
     }
+
+    .app .app__sidebar-right {
+        max-height: 160px;
+    }
 }

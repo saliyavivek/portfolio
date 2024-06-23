@@ -77,7 +77,10 @@ hr {
 
 @media (max-width: 800px) {
     .work {
-        min-height: auto;
         margin-top: -580px;
+    }
+
+    .work__w {
+        margin-top: 0px;
     }
 }
