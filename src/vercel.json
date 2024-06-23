@@ -1,5 +1,16 @@
 {
-    "rewrites": [
-        {"source": "/(.*)", "destination": "/"}
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/work",
+            "dest": "/"
+        },
+        {
+            "src": "/skills",
+            "dest": "/"
+        }
     ]
 }
