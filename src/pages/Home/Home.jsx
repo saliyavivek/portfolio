@@ -15,14 +15,14 @@ const Home = () => {
         <div className="home__about-site">
           <h2>about this site</h2>
           <p>
-            this site is built with &hearts; and{" "}
+            this site is built using{" "}
             <a href="https://react.dev/" target="_blank">
               React
             </a>
-            . the design is inspired by{" "}
+            {/* . the design is inspired by{" "}
             <a href="https://cheesetosht.xyz/" target="_blank">
               cheesetosht.xyz
-            </a>
+            </a> */}
             .
           </p>
         </div>
