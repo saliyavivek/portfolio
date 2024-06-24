@@ -7,6 +7,12 @@
     src: url('/src/fonts/Gustavo_trial-Bold-BF65f254e21d829.otf');
 }
 
+body {
+    height: 100%;
+    position: fixed;
+    -webkit-overflow-scrolling: touch;
+}
+
 * {
     margin: 0;
     padding: 0;
