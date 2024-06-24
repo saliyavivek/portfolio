@@ -37,7 +37,7 @@ span {
 
 @media (max-width: 800px) {
     .skills {
-        max-height: 480px;
+        max-height: 485px;
         margin-top: -130px;
         overflow-y: scroll;
     }
