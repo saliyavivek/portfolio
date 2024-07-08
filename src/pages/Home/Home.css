@@ -48,6 +48,20 @@
     text-decoration: underline;
 }
 
+.para-likes {
+    user-select: text;
+}
+
+.para-likes button {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: inherit;
+    margin-left: 3px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 @media (max-width: 800px) {
     .home {
         margin-top: -140px;
