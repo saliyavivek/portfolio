@@ -35,31 +35,6 @@ const Work = () => {
           </div>
         </div>
       </div>
-      <div className="work__w">
-        <div className="work_w_top">
-          <a href="http://mynotebook-wli5.onrender.com/" target="_blank">
-            <h4>My Notebook</h4>
-          </a>
-          <div className="work_w_description">
-            <p>
-              Designed and Developed a Note taking application where users can
-              efficiently create, edit, and delete notes.The application
-              features a secure login and logout system, ensuring that users'
-              data is protected and private.
-            </p>
-            <p>
-              Users can set notes as private to ensure that only they can view
-              and edit or can share notes with others, making collaboration easy
-              and efficient.
-            </p>
-            <p>
-              Tech stack used to build this project includes MongoDB for
-              database, Node.js with Express for server infrastructure, EJS for
-              templating and JWT(JSON Web Token) for authentication.
-            </p>
-          </div>
-        </div>
-      </div>
       <hr />
       <p className="work__footer">
         to explore rest of my projects, feel free to drop by on my{" "}
