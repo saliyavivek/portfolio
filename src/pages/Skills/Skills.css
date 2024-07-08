@@ -28,11 +28,12 @@
     font-family: "Manrope", sans-serif;
 }
 
-span {
+a {
     text-decoration: underline;
     text-decoration-style: dotted;
     text-underline-offset: 4px;
     text-decoration-color: #919393;
+    color: inherit;
 }
 
 @media (max-width: 800px) {
