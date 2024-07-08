@@ -20,7 +20,7 @@
 .work__title {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2px;
 }
 
 .work__title h3{
