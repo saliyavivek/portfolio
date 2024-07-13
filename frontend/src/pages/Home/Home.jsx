@@ -16,7 +16,7 @@ const Home = () => {
       setIsLiked(false);
     }
 
-    fetch("https://testing-portfolio-backend.vercel.app/api/likes")
+    fetch("https://portfolio-backend-kappa-henna.vercel.app/api/likes")
       .then((response) => response.json())
       .then((data) => {
         setLikes(data.likes);
@@ -25,7 +25,7 @@ const Home = () => {
 
   function handleLike() {
     if (!isLiked) {
-      fetch("https://testing-portfolio-backend.vercel.app/api/like", {
+      fetch("https://portfolio-backend-kappa-henna.vercel.app/api/like", {
         method: "POST",
       })
         .then((response) => response.json())
@@ -36,7 +36,7 @@ const Home = () => {
       });
       setIsLiked(true);
     } else {
-      fetch("https://testing-portfolio-backend.vercel.app/api/dislike", {
+      fetch("https://portfolio-backend-kappa-henna.vercel.app/api/dislike", {
         method: "POST",
       })
         .then((response) => response.json())
