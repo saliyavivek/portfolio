@@ -66,7 +66,7 @@
 .para-likes .message {
     margin-top: -2.3px;
     padding-left: 2.5px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
 }
 
@@ -75,8 +75,31 @@
         margin-top: -140px;
     }
 
+    .home__description {
+        padding-bottom: 10px;
+    }
+
+    .home__description p {
+        font-size: 17px;
+    }
+
+    .home__about-site p {
+        color: #6F736D;
+        font-family: "Manrope", sans-serif;
+        font-size: 16px;
+    }
+
     .para-likes {
+        margin-top: 25px;
         display: flex;
         align-items: flex-start;
+    }
+
+    .para-likes button {
+        font-size: 17.5px;
+    }
+
+    .para-likes .message {
+        font-size: 16px;
     }
 }

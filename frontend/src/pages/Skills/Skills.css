@@ -6,7 +6,7 @@
 .skills__title {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .skills__title h3{
@@ -38,14 +38,26 @@ a {
 
 @media (max-width: 800px) {
     .skills {
-        /* max-height: 485px; */
         min-height: 100%;
         margin-top: -130px;
         padding-bottom: 120px;
         overflow-y: scroll;
     }
 
+    .skills__title {
+        margin-bottom: 20px;
+        gap: 1px;
+    }
+
+    .skills__title p {
+        font-size: 14px;
+    }
+
     .skills::-webkit-scrollbar {
         display: none;
+    }
+
+    .skills__s p {
+        font-size: 16px;
     }
 }

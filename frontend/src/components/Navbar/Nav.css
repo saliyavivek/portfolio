@@ -53,12 +53,9 @@ li.nav__links a{
 }
 
 @media (max-width: 800px) {
-    /* .nav {
-        min-height: 160px;
-    } */
-
     .nav__contents ul {
         text-align: left;
+        font-size: 24px;
     }
 
     .nav__loc {

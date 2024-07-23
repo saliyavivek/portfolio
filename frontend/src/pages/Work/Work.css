@@ -77,9 +77,12 @@ hr {
 
 @media (max-width: 800px) {
     .work {
-        /* max-height: 485px; */
         min-height: 100%;
         margin-top: -130px;
         padding-bottom: 112px;
+    }
+
+    .work_w_description p {
+        font-size: 16px;
     }
 }

@@ -51,7 +51,7 @@ const Home = () => {
         </h1>
         <div className="home__description">
           <p>
-            a final year computer science student, currently improving and
+            a final year computer applications student, currently improving and
             polishing my backend development skills.
           </p>
           <p>always been fascinated by technology and problem-solving.</p>
