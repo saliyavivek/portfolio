@@ -74,6 +74,7 @@ const Home = () => {
               onClick={() => {
                 handleLike();
               }}
+              title={isLiked ? "Dislike" : "Like"}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -93,8 +94,8 @@ const Home = () => {
               </svg>
             </button>
             <span className="message">
-              {likes} amazing people have already liked this portfolio. Be the
-              next one!
+              {likes} amazing people have already liked this portfolio. Tap the
+              heart to like!
             </span>
           </p>
         </div>
