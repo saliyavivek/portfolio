@@ -51,7 +51,7 @@
 .para-likes {
     display: flex;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .para-likes button {
@@ -59,24 +59,24 @@
     border: none;
     outline: none;
     color: inherit;
-    margin-left: 3px;
     background-color: transparent;
     cursor: pointer;
-    margin-top: 5px;
-}
-
-.para-likes .counter {
-    padding: 6px 2px;
 }
 
 .para-likes .message {
-    font-size: 13px;
-    margin-top: 1.5px;
+    margin-top: -2.3px;
+    padding-left: 2.5px;
+    font-size: 14px;
     font-weight: 600;
 }
 
 @media (max-width: 800px) {
     .home {
         margin-top: -140px;
+    }
+
+    .para-likes {
+        display: flex;
+        align-items: flex-start;
     }
 }
