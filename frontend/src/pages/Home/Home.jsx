@@ -55,6 +55,7 @@ const Home = () => {
             polishing my backend development skills.
           </p>
           <p>always been fascinated by technology and problem-solving.</p>
+          <p>building, breaking and learning.</p>
         </div>
         <div className="home__about-site">
           <h2>about this site</h2>
@@ -94,8 +95,8 @@ const Home = () => {
               </svg>
             </button>
             <span className="message">
-              {likes} amazing people have already liked this portfolio. Tap the
-              heart to like!
+              {likes} amazing people have already liked this portfolio.{" "}
+              {isLiked ? "" : "Tap the heart to like!"}
             </span>
           </p>
         </div>
