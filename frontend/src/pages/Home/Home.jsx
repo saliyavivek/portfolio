@@ -95,9 +95,9 @@ const Home = () => {
               </svg>
             </button>
             <span className="message">
-              {likes} amazing people {isLiked ? "including you" : ""} have
-              already liked this portfolio.{" "}
-              {isLiked ? "" : "Tap the heart to like!"}
+              {isLiked ? "You and " : ""}
+              {likes} {isLiked ? "other" : ""} amazing people have already liked
+              this portfolio. {isLiked ? "" : "Tap the heart to like!"}
             </span>
           </p>
         </div>
